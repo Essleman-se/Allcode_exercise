@@ -7,11 +7,13 @@ public interface MyInterface {
      * classes
      */
     default void newMethod(){
+
         System.out.println("Newly added default method");
     }
 
     default void newMethod2(){
-        System.out.println("Newly added default method and recentbbbbbbbbbbbbbbbb");
+
+        System.out.println("Newly added default method");
     }
     /* Already existing public and abstract method
      * We must need to implement this method in

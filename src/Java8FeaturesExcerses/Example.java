@@ -4,6 +4,7 @@ public class Example implements MyInterface {
 
     // implementing abstract method
     public void existingMethod(String str){
+
         System.out.println("String is: "+str);
     }
 
