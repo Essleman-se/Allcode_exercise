@@ -2,6 +2,7 @@ package Java8FeaturesExcerses.codedecode.defaultmethod;
 
 import Java8FeaturesExcerses.Interface1;
 
+import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
 
@@ -28,13 +29,21 @@ public class DefaultMethodeDemo {
 
         //Function interface examples
         Function<Integer, Integer> doubleIt = i -> 2*i;
-        System.out.println("Function interface Square results  : " + doubleIt.apply(2));
+        //System.out.println("Function interface Square results  : " + doubleIt.apply(2));
 
         Function<Integer, Integer> cubeIt = i -> i*i*i;
-        System.out.println("Function interface cube it  results  : " + cubeIt.apply(2));
+        //System.out.println("Function interface cube it  results  : " + cubeIt.apply(2));
 
-        System.out.println("Function interface Square results andThen  : " + doubleIt.andThen(cubeIt).apply(2));
-        System.out.println("Function interface Square results compose  : " + doubleIt.compose(cubeIt).apply(2));
+        //System.out.println("Function interface Square results andThen  : " + doubleIt.andThen(cubeIt).apply(2));
+        //System.out.println("Function interface Square results compose  : " + doubleIt.compose(cubeIt).apply(2));
+
+        Consumer<Integer> squareMe = x -> System.out.println("Take one input and perform operation : " + x * x);
+        squareMe.accept(5);
+
+        Consumer<Integer> doubleMe = x -> System.out.println("Take one input and perform operation : " + x * x);
+        doubleMe.accept(5);
+
+        squareMe.andThen(doubleMe).accept(4);
 
 
 

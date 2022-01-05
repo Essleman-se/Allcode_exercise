@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ec8035-11c0-4ae2-88f4-104cef44c8a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java8FeaturesExcerses/codedecode/defaultmethod/DefaultMethodeDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8FeaturesExcerses/codedecode/defaultmethod/DefaultMethodeDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -168,12 +170,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Application.DefaultMethodeDemo">
-    <configuration name="CarFactoryDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designPaterExercises.Factory.CarFactoryDemo" />
+    <configuration name="DefaultMethodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8FeaturesExcerses.codedecode.defaultmethod.DefaultMethodeDemo" />
       <module name="LeetCodeExcercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="designPaterExercises.Factory.*" />
+          <option name="PATTERN" value="Java8FeaturesExcerses.codedecode.defaultmethod.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -181,12 +183,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultMethodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8FeaturesExcerses.codedecode.defaultmethod.DefaultMethodeDemo" />
+    <configuration name="JornalDevCodeInterview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jornalDev1.JornalDevCodeInterview" />
       <module name="LeetCodeExcercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8FeaturesExcerses.codedecode.defaultmethod.*" />
+          <option name="PATTERN" value="jornalDev1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -236,10 +238,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.DefaultMethodeDemo" />
+        <item itemvalue="Application.JornalDevCodeInterview" />
         <item itemvalue="Application.TestSinglyLinkedList" />
         <item itemvalue="Application.TestSinglyList" />
         <item itemvalue="Application.MyClass" />
-        <item itemvalue="Application.CarFactoryDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -339,6 +341,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -387,6 +390,11 @@
           <url>file://$PROJECT_DIR$/src/ValidString.java</url>
           <line>25</line>
           <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
