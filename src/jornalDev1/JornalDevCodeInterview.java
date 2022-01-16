@@ -14,14 +14,14 @@ public class JornalDevCodeInterview {
         //System.out.println(revers(str));
         //swapNumbers(10, 20);
         //System.out.println(checkVowles(str));
-        //System.out.println(checkPrimeNumber(11));
+        //System.out.println(checkPrimeNumber(6));
         //febonchenumber(10);
-        List<Integer> ints2 = Arrays.asList(1, 3, 5, 7);
-        List<Integer> ints = new ArrayList<>();
-        ints.add(1);
-        ints.add(9);
-        ints.add(3);
-        ints.add(5);
+//        List<Integer> ints2 = Arrays.asList(1, 3, 5, 7);
+//        List<Integer> ints = new ArrayList<>();
+//        ints.add(1);
+//        ints.add(9);
+//        ints.add(3);
+//        ints.add(5);
 
         //checkListOnlyOddNum(ints2);
 
@@ -94,13 +94,19 @@ public class JornalDevCodeInterview {
     }
 
     public static boolean checkPrimeNumber(int num) {
-        int i = 2;
-        while (i <= num / 2) {
-            if (num % i == 0) {
+        //int i = 2;
+//        while (i <= num / 2) {
+//            if (num % i == 0) {
+//                return false;
+//            }
+//
+//            i++;
+//        }
+
+        for (int i=2; i < num/2; i++){
+            if (num%i == 0){
                 return false;
             }
-
-            i++;
         }
 
         return true;
