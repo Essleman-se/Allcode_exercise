@@ -4,7 +4,6 @@
     <list default="true" id="d5ec8035-11c0-4ae2-88f4-104cef44c8a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/jornalDev1/JornalDevCodeInterview.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/jornalDev1/JornalDevCodeInterview.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Java8FeaturesExcerses/codedecode/streamCodeInterviews/Java8StreamCodeInterviews.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java8FeaturesExcerses/codedecode/streamCodeInterviews/Java8StreamCodeInterviews.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -170,7 +169,7 @@
       <recent name="jornalDev1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SingltonExample">
+  <component name="RunManager" selected="Application.JornalDevCodeInterview">
     <configuration name="DefaultMethodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Java8FeaturesExcerses.codedecode.defaultmethod.DefaultMethodeDemo" />
       <module name="LeetCodeExcercises" />
@@ -238,8 +237,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SingltonExample" />
         <item itemvalue="Application.JornalDevCodeInterview" />
+        <item itemvalue="Application.SingltonExample" />
         <item itemvalue="Application.Java8StreamCodeInterviews" />
         <item itemvalue="Application.DefaultMethodeDemo" />
         <item itemvalue="Application.TestSinglyLinkedList" />
@@ -394,8 +393,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java</url>
-          <line>32</line>
+          <line>257</line>
           <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java</url>
+          <line>144</line>
+          <option name="timeStamp" value="36" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
