@@ -6,7 +6,8 @@ public class ReversNumber {
 
    static int reverse(int x) {
 
-       long rev = 0; int digit = 0;
+       long rev = 0;
+       int digit = 0;
 
        for (int i=0; x != 0; i++){
            digit = x % 10;

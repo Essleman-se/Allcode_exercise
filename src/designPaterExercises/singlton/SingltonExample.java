@@ -1,5 +1,7 @@
 package designPaterExercises.singlton;
 
+import java.io.Serializable;
+
 class SingltoEager {
     private static SingltoEager instance = new SingltoEager();
     private SingltoEager(){}
@@ -38,7 +40,21 @@ class SynchronizedSingleton {
 class SynchronizedSingletonBlock {
 
     private static SynchronizedSingletonBlock instance;
-    private SynchronizedSingletonBlock(){}
+    private SynchronizedSingletonBlock(){
+        //prevent reflection
+        if( instance != null ) {
+            throw new InstantiationError( "Creating of this object is not allowed." );
+        }
+    }
+
+    //Prevent deserilization
+    protected Object readResolve() {
+        return instance;
+    }
+    @Override
+    protected Object clone() throws CloneNotSupportedException  {
+        return super.clone();
+    }
 
     public static SynchronizedSingletonBlock getInstance(){
         if (instance == null){
@@ -56,10 +72,10 @@ public class SingltonExample {
 
     public static void main(String[] grs){
         SynchronizedSingletonBlock instance1 = SynchronizedSingletonBlock.getInstance();
-        System.out.println(instance1);
+        System.out.println("Hash code value  instance1: " + instance1.hashCode());
 
         SynchronizedSingletonBlock instance2 = SynchronizedSingletonBlock.getInstance();
-        System.out.println(instance2);
+        System.out.println("Hash code value  instance2: "  + instance2.hashCode());
     }
 
 }

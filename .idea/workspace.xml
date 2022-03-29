@@ -3,7 +3,20 @@
   <component name="ChangeListManager">
     <list default="true" id="d5ec8035-11c0-4ae2-88f4-104cef44c8a6" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/ComparableExample$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/ComparableExample$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/ComparableExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/ComparableExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/HashMapExercies.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/HashMapExercies.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/ReversNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/ReversNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/SingltoEager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/SingltoEager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/Singlton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/Singlton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/SingltonExample.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/SingltonExample.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/SynchronizedSingleton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/SynchronizedSingleton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/SynchronizedSingletonBlock.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/designPaterExercises/singlton/SynchronizedSingletonBlock.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/LeetCodeExcercises/jornalDev1/JornalDevCodeInterview.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/LeetCodeExcercises/jornalDev1/JornalDevCodeInterview.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ComparableExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ComparableExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HashMapExercies.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/HashMapExercies.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ReversNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ReversNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/designPaterExercises/singlton/SingltonExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/designPaterExercises/singlton/SingltonExample.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,7 +168,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="create.test.in.the.same.root" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../createdprojects/workspace1/com.customer.serviceApp/com.customer.serviceApp" />
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
@@ -169,13 +182,33 @@
       <recent name="jornalDev1" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JornalDevCodeInterview">
-    <configuration name="DefaultMethodeDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8FeaturesExcerses.codedecode.defaultmethod.DefaultMethodeDemo" />
+  <component name="RunManager" selected="Application.LeeteCode">
+    <configuration name="HashMapExercies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HashMapExercies" />
+      <module name="LeetCodeExcercises" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="InterfaceOneImpl" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8FeaturesExcerses.inteface.InterfaceOneImpl" />
       <module name="LeetCodeExcercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8FeaturesExcerses.codedecode.defaultmethod.*" />
+          <option name="PATTERN" value="Java8FeaturesExcerses.inteface.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Java8SortandsearchDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8FeaturesExcerses.codedecode.sort_searchobjectswithstream.Java8SortandsearchDemo" />
+      <module name="LeetCodeExcercises" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8FeaturesExcerses.codedecode.sort_searchobjectswithstream.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -196,38 +229,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JornalDevCodeInterview" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jornalDev1.JornalDevCodeInterview" />
+    <configuration name="LeeteCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="leetcode.LeeteCode" />
       <module name="LeetCodeExcercises" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jornalDev1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SingltonExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="designPaterExercises.singlton.SingltonExample" />
-      <module name="LeetCodeExcercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="designPaterExercises.singlton.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestSinglyLinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ReversSinglyLinnkedList.TestSinglyLinkedList" />
-      <module name="LeetCodeExcercises" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ReversSinglyLinnkedList.*" />
+          <option name="PATTERN" value="leetcode.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,11 +244,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JornalDevCodeInterview" />
-        <item itemvalue="Application.SingltonExample" />
+        <item itemvalue="Application.LeeteCode" />
+        <item itemvalue="Application.Java8SortandsearchDemo" />
+        <item itemvalue="Application.InterfaceOneImpl" />
         <item itemvalue="Application.Java8StreamCodeInterviews" />
-        <item itemvalue="Application.DefaultMethodeDemo" />
-        <item itemvalue="Application.TestSinglyLinkedList" />
+        <item itemvalue="Application.HashMapExercies" />
       </list>
     </recent_temporary>
   </component>
@@ -393,13 +400,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java</url>
-          <line>257</line>
+          <line>276</line>
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/jornalDev1/JornalDevCodeInterview.java</url>
-          <line>144</line>
+          <line>163</line>
           <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LeeteCode.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/LeeteCode.java</url>
+          <line>31</line>
+          <option name="timeStamp" value="42" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

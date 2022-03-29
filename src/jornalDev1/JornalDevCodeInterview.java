@@ -7,6 +7,8 @@ public class JornalDevCodeInterview {
 
     public static void main(String[] args) {
         //System.out.println("Here go !!");
+
+
         String str = "ffffff";
 
         //System.out.println(revers(str));
@@ -27,11 +29,17 @@ public class JornalDevCodeInterview {
         //System.out.println(removeWhiteSpace("salas seido"));
         //System.out.println(findFactorialOfIntegerRec(4));
 
+        List<String> strings = Arrays.asList("Salas", "Semir", "Essain", "");
+
+        strings.add(0, "Abeba");
+        strings.remove(3);
+
         List<Integer> ll = new ArrayList<>();
         ll.add(1);
         ll.add(2);
         ll.add(3);
         ll.add(4);
+
 
 //        System.out.println("Before revers");
 //        System.out.println(ll);
@@ -69,11 +77,22 @@ public class JornalDevCodeInterview {
         //System.out.println(removeCharOccurence("a", "abcdABCDabcdABCD"));
         //System.out.println(countDistictCharsInString("abcdABCDabcdABCD"));
 
-        profStringIsImmutable();
+        //profStringIsImmutable();
+
+        try {
+            foo(2);
+        }catch (IllegalArgumentException | NullPointerException e){
+            e.printStackTrace();
+            //System.out.println(" Here is the exception thrown :-  "+e.getMessage());
+        }
     }
     //next question
     //26. remove all occurrences of a given character from input String?
 
+    public static void foo(Integer x) throws IllegalArgumentException, NullPointerException {
+        int res  = 100/x;
+        System.out.println("Argument value  :  " + res);
+    }
     public static void profStringIsImmutable(){
 
         String s1 = "Java";
